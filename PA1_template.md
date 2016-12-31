@@ -124,6 +124,7 @@ legend(x = "topright", c("Mean", "Median"), col = c("grey", "black"),
        lty = c(2, 1), lwd = c(2, 2))
 
 ```
+<img src="https://github.com/SpiessJ/RepData_PeerAssessment1/blob/master/instructions_fig/TotStepspDay2.jpeg" width="700">
 
 **Answer**: The new mean is at 10.766. The median takes exactly the same value. Before data was imputed, the mean was at 10.766 and the median was slighlty lower at 10.765. As we use means to replace missing values, we end up with more data close or identical to the mean. As a consequence of that, the median is shifted towards the mean. 
 The impact of imputing missing data on the estimates of the total daily number of steps is that we increase frequence counts as we add values to records that did not have values for sthe step-variable before (as they were missing.)
