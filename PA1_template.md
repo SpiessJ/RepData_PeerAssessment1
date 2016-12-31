@@ -146,6 +146,9 @@ lty=3,
 data=activitydata3)
 ```
 
+<img src="https://github.com/SpiessJ/RepData_PeerAssessment1/blob/master/instructions_fig/WeekendWeekdayComp.jpeg" width="700">
+
+
 **Answer**: The test person seems to be active at an earlier time of the day on weekdays. Activity levels show a rightward shift on weekends which implies that the person starts being active later. This shift might be due to the fact that the person is working during the week.
 
 
