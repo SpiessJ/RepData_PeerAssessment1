@@ -73,6 +73,8 @@ steps_per_interval <- aggregate(steps ~ interval, activitydata2, mean) # aggrega
 plot(steps_per_interval$interval,steps_per_interval$steps, type="l", xlab="Interval", ylab="No. Steps",main="Avg No. Steps per Day per Interval", col = "steel blue") 
 ```
 
+<img src="" width="700">
+
 **Task 2:** Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
 ```{r Print results maximum interval, echo = TRUE}
