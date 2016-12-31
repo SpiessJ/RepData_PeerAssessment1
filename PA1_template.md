@@ -50,6 +50,7 @@ legend(x = "topright", c("Mean", "Median"), col = c("grey", "black"),
 lty = c(2, 1), lwd = c(2, 2))
 ```
 
+<img src="https://github.com/SpiessJ/RepData_PeerAssessment1/blob/master/instructions_fig/TotStepspDay.jpeg" width="700">
 
 **Tasks 3:** Calculate mean and median of steps per day
 
